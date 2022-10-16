@@ -35,6 +35,7 @@ fun CheckoutScreen(
             fontWeight = FontWeight.Bold
         )
         ItemSummary(item = bookUiState.entree)
+        ItemSummary(item = bookUiState.GiftChoice)
         Divider(thickness = 1.dp, modifier = Modifier.padding(bottom = 8.dp))
         OrderSubCost(
             resourceId = R.string.subtotal,

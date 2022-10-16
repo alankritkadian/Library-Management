@@ -1,5 +1,6 @@
 package com.example.librarymanagement.ui
 
+import android.icu.lang.UProperty
 import androidx.lifecycle.ViewModel
 import com.example.librarymanagement.model.BookItem
 import com.example.librarymanagement.model.BookUiState
@@ -17,9 +18,9 @@ class BookViewModel : ViewModel() {
         val previousEntree = _uiState.value.entree
         updateItem(entree, previousEntree)
     }
-    fun updateGift(giftOption: BookItem.giftOption) {
+    fun updateGift(GiftChoice: BookItem.GiftOption) {
         val previousGift = _uiState.value.GiftChoice
-        updateItem(giftOption, previousGift)
+        updateItem(GiftChoice, previousGift)
     }
     private fun updateItem(newItem: BookItem, previousItem: BookItem?) {
         _uiState.update { currentState ->
@@ -33,6 +34,7 @@ class BookViewModel : ViewModel() {
                 orderTax = tax,
                 orderTotalPrice = itemTotalPrice + tax,
                 entree = if (newItem is BookItem.BookingOption) newItem else currentState.entree,
+                GiftChoice = if(newItem is BookItem.GiftOption) newItem else currentState.GiftChoice
             )
         }
     }

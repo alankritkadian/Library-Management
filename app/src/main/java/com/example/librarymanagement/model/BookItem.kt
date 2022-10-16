@@ -12,7 +12,7 @@ sealed class BookItem (
         override val description: String,
         override val price: Double
     ) : BookItem(name,description,price)
-    data class giftOption(
+    data class GiftOption(
         override val name: String,
         override val description: String,
         override val price: Double
