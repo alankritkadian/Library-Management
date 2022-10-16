@@ -26,17 +26,17 @@ object DataSource {
         ),
     )
     val giftOption = listOf(
-        BookItem.giftOption(
+        BookItem.GiftOption(
             name = "Gift",
             description = "Click here to wrap it up in a standard gift packing",
             price = 20.0
         ),
-        BookItem.giftOption(
+        BookItem.GiftOption(
             name = "Premium Gift",
             description = "Click here to wrap it up in a premium gift packing with Flowers",
             price = 50.0
         ),
-        BookItem.giftOption(
+        BookItem.GiftOption(
             name = "Personal",
             description = "Click here to opt for no gift Wrapping",
             price = 0.0

@@ -8,10 +8,10 @@ import com.example.librarymanagement.model.BookItem
 
 @Composable
 fun GiftScreen(
-    options: List<BookItem.giftOption>,
+    options: List<BookItem.GiftOption>,
     onCancelButtonClicked: () -> Unit,
     onNextButtonClicked: () -> Unit,
-    onSelectionChanged: (BookItem.giftOption) -> Unit,
+    onSelectionChanged: (BookItem.GiftOption) -> Unit,
     modifier: Modifier = Modifier
 ) {
     BaseMenuScreen(

@@ -17,7 +17,7 @@ class BookViewModel : ViewModel() {
         val previousEntree = _uiState.value.entree
         updateItem(entree, previousEntree)
     }
-    fun updateGift(giftOption: BookItem.giftOption) {
+    fun updateGift(giftOption: BookItem.GiftOption) {
         val previousGift = _uiState.value.GiftChoice
         updateItem(giftOption, previousGift)
     }
