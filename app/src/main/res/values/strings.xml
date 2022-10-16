@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Library Management</string>
+    <string name="back_button">Back</string>
+    <string name="book_1">Sherlock Holmes</string>
+    <string name="book_des_1">Its about the amazing and mind bending adventures of Sherlock Holmes and John Watson</string>
+    <string name="book_2">Harry Potter</string>
+    <string name="book_des_2">The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry</string>
+    <string name="book_3">Lord of the Rings</string>
+    <string name="book_des_3">The Lord of the Rings tells of the great quest undertaken by Frodo and the Fellowship of the Ring</string>
+    <string name="book_4">Story of My Life</string>
+    <string name="book_des_4">Helen Keller\'s triumph over her blindness and deafness has become one of the most inspiring stories of our time</string>
+    <string name="copies_available">%d Copies available</string>
+    <string name="expand_button">Press for to borrow and for more information</string>
+    <string name="about">About: </string>
+    <string name="borrow">Borrow/Sell</string>
+    <string name="option">Choose an Option:</string>
+    <string name="checkout">Order Receipt</string>
+    <string name="subtotal">Subtotal: %s</string>
+    <string name="tax">Tax: %s</string>
+    <string name="total">Total: %s</string>
+    <string name="gift">Opt for a gift option</string>
+</resources>
